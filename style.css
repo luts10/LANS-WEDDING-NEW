@@ -1,5 +1,5 @@
 .ayat-bg {
-    background: url('img/wedding\ blue.png') center center/cover no-repeat;
+    background: url('img/motif\ bunga.jpg') center center/cover no-repeat;
     background-attachment: scroll;
     min-height: 100vh;
     display: flex;
@@ -73,7 +73,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/pengantin\ new\ 2.png);
+    background-image: url(img/nuansa\ pink\ \(2\).png);
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -111,7 +111,7 @@ body {
 }
 
 .hero a:hover {
-    background-color: rgb(36, 94, 253);
+    background-color: var(--pink);
     color: white;
 }
 
@@ -148,7 +148,7 @@ body {
 
 .home {
     
-    background-image: url(img/wedding\ blue.png);
+    background-image: url(img/bg\ pink.jpg);
     background-size: cover;
     background-position: center;
     /* z-index: -1; */
@@ -156,7 +156,7 @@ body {
     min-height: 100vh;
     margin-top: -6rem;
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 .home h2, 
@@ -221,21 +221,11 @@ body {
 
 
 .info {
-     background-image: url(img/wedding\ blue.png);
-    background-size: cover;
-    background-position: center;
-    /* z-index: -1; */
-    background-size: cover;
-    min-height: 100vh;
-    margin-top: -6rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
     /* background-color: var(--bg); */
-    /* background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%); */
-    /* background-image: url(img/wedding\ blue.png);
+     background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
     color: rgb(0, 0, 0);
     padding-top: 10rem;
-    padding-bottom: 8rem; */
+    padding-bottom: 8rem;
     /* background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
@@ -250,7 +240,7 @@ body {
 }
 
 .info a:hover {
-    background-color: rgb(36, 94, 253);
+    background-color: var(--pink);
     color: rgb(255, 249, 249);
 }
 
@@ -266,15 +256,15 @@ body {
 .info .card{
     /* padding-top: 3rem; */
     margin-top: 1.5rem;
-    background: linear-gradient(135deg, #d8ebf6 0%, #b8ddff 100%) !important;
-    color: rgb(27, 103, 255) !important;
-    border: 1px solid #66a3ff;
+    background: linear-gradient(135deg, #ffffff 0%, #fff4f9 100%) !important;
+    color: var(--pink) !important;
+    border: 1px solid #f70465;
 }
 
 
 .info .card-header{
 
-    border-bottom: 1px solid #6eaff9;
+    border-bottom: 1px solid #999;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     
@@ -285,7 +275,7 @@ body {
 }
 
 .info .card-footer{
-    border-top: 1px solid #04a7f9;
+    border-top: 1px solid #999;
     font-size: 0.9rem;
     font-weight: 300;
 
@@ -400,18 +390,8 @@ body {
 
 /* RSVP Section Styling */
 .rsvp {
-     background-image: url(img/wedding\ blue.png);
-    background-size: cover;
-    background-position: center;
-    /* z-index: -1; */
-    background-size: cover;
-    min-height: 100vh;
-    margin-top: -6rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    /* background: linear-gradient(135deg, #fff0f6 0%, #ffe3ec 100%); */
-    /* background-image: url(img/wedding\ blue.png);
-    padding: 60px 0 60px 0; */
+    background: linear-gradient(135deg, #fff0f6 0%, #ffe3ec 100%);
+    padding: 60px 0 60px 0;
 }
 /* .rsvp h2 {
     color: #e90090;
@@ -427,38 +407,28 @@ body {
     margin-top: 24px;
 }
 #rsvp-form label {
-    color: #1c72f4;
+    color: #e90090;
     font-weight: 500;
 }
 #rsvp-form .form-control, #rsvp-form .form-select {
     border-radius: 8px;
-    border: 1px solid #1c72f4;
+    border: 1px solid #e90090;
 }
 #rsvp-form .btn-pink {
-    background: #1c72f4;
+    background: #e90090;
     color: #fff;
     border-radius: 8px;
     font-weight: 600;
     transition: background 0.2s;
 }
 #rsvp-form .btn-pink:hover {
-    background: #1c72f4;
+    background: #b8006b;
 }
 
 /* Gift Section Styling */
 .gift {
-     background-image: url(img/wedding\ blue.png);
-    background-size: cover;
-    background-position: center;
-    /* z-index: -1; */
-    background-size: cover;
-    min-height: 100vh;
-    margin-top: -6rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    /* background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%); */
-    /* background-image: url(img/wedding\ blue.png);
-    padding: 60px 0 60px 0; */
+    background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
+    padding: 60px 0 60px 0;
 }
 /* .gift h2 {
     color: #e90090;
