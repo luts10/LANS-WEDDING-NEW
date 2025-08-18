@@ -1,3 +1,37 @@
+/* ATM Card Gift Section */
+.atm-card {
+    min-height: 170px;
+    position: relative;
+}
+.atm-bca {
+    background: linear-gradient(135deg, #9bcce4 60%, #2052f5 100%);
+    
+}
+.atm-mandiri {
+    background: linear-gradient(135deg, #e7d95f 60%, #f5f7d3 100%);
+    
+}
+.atm-logo-bca {
+    height: 70px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.atm-logo-mandiri {
+    height: 150px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
+}
+.atm-bank-name {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+.atm-number {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    user-select: all;
+}
 .ayat-bg {
     background: url('img/motif\ bunga.jpg') center center/cover no-repeat;
     background-attachment: scroll;
@@ -454,7 +488,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
-    padding-top: 10rem;
+    padding-top: 14rem;
     padding-bottom: 3rem;
 }
 /* .gift h2 {
