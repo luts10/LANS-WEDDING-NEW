@@ -156,7 +156,7 @@ body {
     min-height: 100vh;
     margin-top: -6rem;
     padding-top: 10rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 
 .home h2, 
@@ -222,15 +222,24 @@ body {
 
 .info {
     /* background-color: var(--bg); */
-     background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
+     /* background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
     color: rgb(0, 0, 0);
     padding-top: 10rem;
-    padding-bottom: 8rem;
+    padding-bottom: 8rem; */
     /* background-size: cover;
     min-height: 100vh;
     margin-top: -6rem;
     padding-top: 10rem;
     padding-bottom: 5rem; */
+    background-image: url(img/bg\ pink1.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* z-index: -1; */
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 10rem;
+    padding-bottom: 13rem;
 
 }
 
@@ -390,8 +399,17 @@ body {
 
 /* RSVP Section Styling */
 .rsvp {
-    background: linear-gradient(135deg, #fff0f6 0%, #ffe3ec 100%);
-    padding: 60px 0 60px 0;
+    /* background: linear-gradient(135deg, #fff0f6 0%, #ffe3ec 100%);
+    padding: 60px 0 60px 0; */
+    background-image: url(img/bg\ pink1.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* z-index: -1; */
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
 }
 /* .rsvp h2 {
     color: #e90090;
@@ -427,8 +445,17 @@ body {
 
 /* Gift Section Styling */
 .gift {
-    background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
-    padding: 60px 0 60px 0;
+    /* background: linear-gradient(135deg, #ffe3ec 0%, #fff0f6 100%);
+    padding: 60px 0 60px 0; */
+    background-image: url(img/bg\ pink1.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* z-index: -1; */
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: -6rem;
+    padding-top: 10rem;
+    padding-bottom: 3rem;
 }
 /* .gift h2 {
     color: #e90090;
