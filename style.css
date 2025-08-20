@@ -629,7 +629,7 @@ body {
         width: 100%;
     }
     
-    .hero {
+    /* .hero {
         padding: 10px;
         min-height: 100vh;
     }
@@ -693,11 +693,11 @@ body {
         position: absolute;
         top: -30px;
         right: 10px;
-    }
+    } */
 }
 
 /* Extra small devices */
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     html {
         font-size: 50%;
     }
@@ -714,10 +714,10 @@ body {
     .time-value {
         font-size: 1.3rem;
     }
-}
+} */
 
 /* Prevent horizontal overflow */
-.container {
+/* .container {
     max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
@@ -733,4 +733,4 @@ body {
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
